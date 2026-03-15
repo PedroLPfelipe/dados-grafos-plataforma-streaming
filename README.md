@@ -56,6 +56,3 @@ Ao fazer a visualização de informações específicas sobre esses labels gerai
 
 ![image alt](https://github.com/PedroLPfelipe/dados-grafos-plataforma-streaming/blob/f9ede4fbf10334b769649578f93d696cdd3a8f92/imagens/visualizacao_grafo.jpeg)                         
 query **MATCH (n:Ator) RETURN n LIMIT 10;**
-
-Onde:
-
