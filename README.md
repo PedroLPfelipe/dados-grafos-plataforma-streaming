@@ -47,3 +47,13 @@ A plataforma [Neo4j aura](https://neo4j.com) permite navegar facilmente entre co
 ● descobrir quais usuários assistiram ao mesmo filme
 
 ● identificar conteúdos de um determinado gênero
+
+Ao usar a query **CALL db.schema.visualization()**, a visualização das principais labels do grafo são apresentadas junto de suas relações.
+
+![image alt](https://github.com/PedroLPfelipe/dados-grafos-plataforma-streaming/blob/f9ede4fbf10334b769649578f93d696cdd3a8f92/imagens/visualizacao_CALLdbschema.jpeg)
+
+Ao fazer a visualização de informações específicas sobre esses labels gerais com a query **MATCH**, é possível expandir e ver todas as conexões com todos os nós armazenados na instância.
+
+![image alt](https://github.com/PedroLPfelipe/dados-grafos-plataforma-streaming/blob/f9ede4fbf10334b769649578f93d696cdd3a8f92/imagens/visualizacao_grafo.jpeg)                         
+query **MATCH (n:Ator) RETURN n LIMIT 10;**
+
