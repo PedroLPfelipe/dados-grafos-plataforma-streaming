@@ -7,5 +7,6 @@ Este repositório contém a solução de um desafio de código do bootcamp da DI
 **- Conexões (relacionamentos): WATCHED (com propriedade rating/avaliação), ACTED_IN, DIRECTED, IN_GENRE.**
 
 ## RASCUNHO DA MODELO
-Modelagem do grafo com a ferramenta Arrows app
+Modelagem do grafo com a ferramenta [Arrows App](https://arrows.app/)
+
 ![image alt](https://github.com/PedroLPfelipe/dados-grafos-plataforma-streaming/blob/5a1af2d8c3260fb76398c2398e18bb126dd1eb9e/grafo_plataforma_streaming.png)
